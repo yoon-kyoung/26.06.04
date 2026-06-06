@@ -39,9 +39,12 @@ ul { list-style: none; }
 
 /* ── Hero ─────────────────────────────────────────── */
 .hero {
-  background: var(--color-primary);
+  background: linear-gradient(135deg, #0f2c6e 0%, #1a56b0 45%, #2d9ee0 100%);
   color: #fff;
-  padding: 64px 0;
+  padding: 100px 0;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-inner {
